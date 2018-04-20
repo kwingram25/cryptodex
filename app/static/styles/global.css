@@ -1,0 +1,11 @@
+.blackText {
+  color: #000000 !important;
+}
+
+.whiteText {
+  color: #FFFFFF;
+}
+
+.transparentBg {
+  background: transparent !important;
+}

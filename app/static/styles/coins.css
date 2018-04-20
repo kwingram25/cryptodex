@@ -1,0 +1,1117 @@
+
+      
+  .borderRight-bitcoin {
+    border-right: 2px solid #F7931A !important;
+  }
+
+      
+  .textColor-bitcoin {
+    color: #F8A642 !important;
+  }
+
+      
+  .backgroundColor-bitcoin {
+    background-color: #F7931A !important;
+  }
+
+      
+  .backgroundColorHover-bitcoin {
+    background-color: #F7931A !important;
+  }
+
+      
+  .backgroundColorHover-bitcoin:hover {
+    background-color: #E07E08 !important;
+  }
+
+      
+  .backgroundColorAfter-bitcoin:after {
+    background-color: #F7931A !important;
+  }
+
+      
+  .coinLogoAfter-bitcoin:after {
+    content: '\e90b';
+  }
+
+    
+      
+  .borderRight-ethereum {
+    border-right: 2px solid #6F7CBA !important;
+  }
+
+      
+  .textColor-ethereum {
+    color: #8D97C8 !important;
+  }
+
+      
+  .backgroundColor-ethereum {
+    background-color: #6F7CBA !important;
+  }
+
+      
+  .backgroundColorHover-ethereum {
+    background-color: #6F7CBA !important;
+  }
+
+      
+  .backgroundColorHover-ethereum:hover {
+    background-color: #5261AB !important;
+  }
+
+      
+  .backgroundColorAfter-ethereum:after {
+    background-color: #6F7CBA !important;
+  }
+
+      
+  .coinLogoAfter-ethereum:after {
+    content: '\e918';
+  }
+
+    
+      
+  .borderRight-ripple {
+    border-right: 2px solid #346AA9 !important;
+  }
+
+      
+  .textColor-ripple {
+    color: #3C7AC2 !important;
+  }
+
+      
+  .backgroundColor-ripple {
+    background-color: #346AA9 !important;
+  }
+
+      
+  .backgroundColorHover-ripple {
+    background-color: #346AA9 !important;
+  }
+
+      
+  .backgroundColorHover-ripple:hover {
+    background-color: #2C5A90 !important;
+  }
+
+      
+  .backgroundColorAfter-ripple:after {
+    background-color: #346AA9 !important;
+  }
+
+      
+  .coinLogoAfter-ripple:after {
+    content: '\e938';
+  }
+
+    
+      
+  .borderRight-bitcoin-cash {
+    border-right: 2px solid #F7931A !important;
+  }
+
+      
+  .textColor-bitcoin-cash {
+    color: #F8A642 !important;
+  }
+
+      
+  .backgroundColor-bitcoin-cash {
+    background-color: #F7931A !important;
+  }
+
+      
+  .backgroundColorHover-bitcoin-cash {
+    background-color: #F7931A !important;
+  }
+
+      
+  .backgroundColorHover-bitcoin-cash:hover {
+    background-color: #E07E08 !important;
+  }
+
+      
+  .backgroundColorAfter-bitcoin-cash:after {
+    background-color: #F7931A !important;
+  }
+
+      
+  .coinLogoAfter-bitcoin-cash:after {
+    content: '\e909';
+  }
+
+    
+      
+  .borderRight-cardano {
+    border-right: 2px solid #3CC8C8 !important;
+  }
+
+      
+  .textColor-cardano {
+    color: #5AD1D1 !important;
+  }
+
+      
+  .backgroundColor-cardano {
+    background-color: #3CC8C8 !important;
+  }
+
+      
+  .backgroundColorHover-cardano {
+    background-color: #3CC8C8 !important;
+  }
+
+      
+  .backgroundColorHover-cardano:hover {
+    background-color: #31ACAC !important;
+  }
+
+      
+  .backgroundColorAfter-cardano:after {
+    background-color: #3CC8C8 !important;
+  }
+
+      
+  .coinLogoAfter-cardano:after {
+    content: '\e901';
+  }
+
+    
+      
+  .borderRight-litecoin {
+    border-right: 2px solid #838383 !important;
+  }
+
+      
+  .textColor-litecoin {
+    color: #979797 !important;
+  }
+
+      
+  .backgroundColor-litecoin {
+    background-color: #838383 !important;
+  }
+
+      
+  .backgroundColorHover-litecoin {
+    background-color: #838383 !important;
+  }
+
+      
+  .backgroundColorHover-litecoin:hover {
+    background-color: #6F6F6F !important;
+  }
+
+      
+  .backgroundColorAfter-litecoin:after {
+    background-color: #838383 !important;
+  }
+
+      
+  .coinLogoAfter-litecoin:after {
+    content: '\e922';
+  }
+
+    
+      
+  .borderRight-neo {
+    border-right: 2px solid #58BF00 !important;
+  }
+
+      
+  .textColor-neo {
+    color: #65DC00 !important;
+  }
+
+      
+  .backgroundColor-neo {
+    background-color: #58BF00 !important;
+  }
+
+      
+  .backgroundColorHover-neo {
+    background-color: #58BF00 !important;
+  }
+
+      
+  .backgroundColorHover-neo:hover {
+    background-color: #4BA200 !important;
+  }
+
+      
+  .backgroundColorAfter-neo:after {
+    background-color: #58BF00 !important;
+  }
+
+      
+  .coinLogoAfter-neo:after {
+    content: '\e925';
+  }
+
+    
+      
+  .borderRight-stellar {
+    border-right: 2px solid #08B5E5 !important;
+  }
+
+      
+  .textColor-stellar {
+    color: #1AC7F7 !important;
+  }
+
+      
+  .backgroundColor-stellar {
+    background-color: #08B5E5 !important;
+  }
+
+      
+  .backgroundColorHover-stellar {
+    background-color: #08B5E5 !important;
+  }
+
+      
+  .backgroundColorHover-stellar:hover {
+    background-color: #079AC3 !important;
+  }
+
+      
+  .backgroundColorAfter-stellar:after {
+    background-color: #08B5E5 !important;
+  }
+
+      
+  .coinLogoAfter-stellar:after {
+    content: '\e92f';
+  }
+
+    
+      
+  .borderRight-iota {
+    border-right: 2px solid #FFFFFF !important;
+  }
+
+      
+  .textColor-iota {
+    color: #FFFFFF !important;
+  }
+
+      
+  .backgroundColor-iota {
+    background-color: #FFFFFF !important;
+  }
+
+      
+  .backgroundColorHover-iota {
+    background-color: #FFFFFF !important;
+  }
+
+      
+  .backgroundColorHover-iota:hover {
+    background-color: #D9D9D9 !important;
+  }
+
+      
+  .backgroundColorAfter-iota:after {
+    background-color: #FFFFFF !important;
+  }
+
+      
+  .coinLogoAfter-iota:after {
+    content: '\e91e';
+  }
+
+    
+      
+  .borderRight-nem {
+    border-right: 2px solid #41BF76 !important;
+  }
+
+      
+  .textColor-nem {
+    color: #5EC98B !important;
+  }
+
+      
+  .backgroundColor-nem {
+    background-color: #41BF76 !important;
+  }
+
+      
+  .backgroundColorHover-nem {
+    background-color: #41BF76 !important;
+  }
+
+      
+  .backgroundColorHover-nem:hover {
+    background-color: #37A364 !important;
+  }
+
+      
+  .backgroundColorAfter-nem:after {
+    background-color: #41BF76 !important;
+  }
+
+      
+  .coinLogoAfter-nem:after {
+    content: '\e935';
+  }
+
+    
+      
+  .borderRight-dash {
+    border-right: 2px solid #1C75BC !important;
+  }
+
+      
+  .textColor-dash {
+    color: #2087D8 !important;
+  }
+
+      
+  .backgroundColor-dash {
+    background-color: #1C75BC !important;
+  }
+
+      
+  .backgroundColorHover-dash {
+    background-color: #1C75BC !important;
+  }
+
+      
+  .backgroundColorHover-dash:hover {
+    background-color: #1863A0 !important;
+  }
+
+      
+  .backgroundColorAfter-dash:after {
+    background-color: #1C75BC !important;
+  }
+
+      
+  .coinLogoAfter-dash:after {
+    content: '\e90c';
+  }
+
+    
+      
+  .borderRight-monero {
+    border-right: 2px solid #FF6600 !important;
+  }
+
+      
+  .textColor-monero {
+    color: #FF7D26 !important;
+  }
+
+      
+  .backgroundColor-monero {
+    background-color: #FF6600 !important;
+  }
+
+      
+  .backgroundColorHover-monero {
+    background-color: #FF6600 !important;
+  }
+
+      
+  .backgroundColorHover-monero:hover {
+    background-color: #D95700 !important;
+  }
+
+      
+  .backgroundColorAfter-monero:after {
+    background-color: #FF6600 !important;
+  }
+
+      
+  .coinLogoAfter-monero:after {
+    content: '\e937';
+  }
+
+    
+      
+  .borderRight-lisk {
+    border-right: 2px solid #1A6896 !important;
+  }
+
+      
+  .textColor-lisk {
+    color: #1E78AD !important;
+  }
+
+      
+  .backgroundColor-lisk {
+    background-color: #1A6896 !important;
+  }
+
+      
+  .backgroundColorHover-lisk {
+    background-color: #1A6896 !important;
+  }
+
+      
+  .backgroundColorHover-lisk:hover {
+    background-color: #165880 !important;
+  }
+
+      
+  .backgroundColorAfter-lisk:after {
+    background-color: #1A6896 !important;
+  }
+
+      
+  .coinLogoAfter-lisk:after {
+    content: '\e920';
+  }
+
+    
+      
+  .borderRight-ethereum-classic {
+    border-right: 2px solid #669073 !important;
+  }
+
+      
+  .textColor-ethereum-classic {
+    color: #7AA186 !important;
+  }
+
+      
+  .backgroundColor-ethereum-classic {
+    background-color: #669073 !important;
+  }
+
+      
+  .backgroundColorHover-ethereum-classic {
+    background-color: #669073 !important;
+  }
+
+      
+  .backgroundColorHover-ethereum-classic:hover {
+    background-color: #577A62 !important;
+  }
+
+      
+  .backgroundColorAfter-ethereum-classic:after {
+    background-color: #669073 !important;
+  }
+
+      
+  .coinLogoAfter-ethereum-classic:after {
+    content: '\e917';
+  }
+
+    
+      
+  .borderRight-ardor {
+    border-right: 2px solid #1162A1 !important;
+  }
+
+      
+  .textColor-ardor {
+    color: #1471B9 !important;
+  }
+
+      
+  .backgroundColor-ardor {
+    background-color: #1162A1 !important;
+  }
+
+      
+  .backgroundColorHover-ardor {
+    background-color: #1162A1 !important;
+  }
+
+      
+  .backgroundColorHover-ardor:hover {
+    background-color: #0E5389 !important;
+  }
+
+      
+  .backgroundColorAfter-ardor:after {
+    background-color: #1162A1 !important;
+  }
+
+      
+  .coinLogoAfter-ardor:after {
+    content: '\e904';
+  }
+
+    
+      
+  .borderRight-ark {
+    border-right: 2px solid #F70000 !important;
+  }
+
+      
+  .textColor-ark {
+    color: #FF1D1D !important;
+  }
+
+      
+  .backgroundColor-ark {
+    background-color: #F70000 !important;
+  }
+
+      
+  .backgroundColorHover-ark {
+    background-color: #F70000 !important;
+  }
+
+      
+  .backgroundColorHover-ark:hover {
+    background-color: #D20000 !important;
+  }
+
+      
+  .backgroundColorAfter-ark:after {
+    background-color: #F70000 !important;
+  }
+
+      
+  .coinLogoAfter-ark:after {
+    content: '\e906';
+  }
+
+    
+      
+  .borderRight-decred {
+    border-right: 2px solid #3B7CFB !important;
+  }
+
+      
+  .textColor-decred {
+    color: #699AFC !important;
+  }
+
+      
+  .backgroundColor-decred {
+    background-color: #3B7CFB !important;
+  }
+
+      
+  .backgroundColorHover-decred {
+    background-color: #3B7CFB !important;
+  }
+
+      
+  .backgroundColorHover-decred:hover {
+    background-color: #0D5EFA !important;
+  }
+
+      
+  .backgroundColorAfter-decred:after {
+    background-color: #3B7CFB !important;
+  }
+
+      
+  .coinLogoAfter-decred:after {
+    content: '\e90f';
+  }
+
+    
+      
+  .borderRight-digibyte {
+    border-right: 2px solid #0066CC !important;
+  }
+
+      
+  .textColor-digibyte {
+    color: #0075EB !important;
+  }
+
+      
+  .backgroundColor-digibyte {
+    background-color: #0066CC !important;
+  }
+
+      
+  .backgroundColorHover-digibyte {
+    background-color: #0066CC !important;
+  }
+
+      
+  .backgroundColorHover-digibyte:hover {
+    background-color: #0057AD !important;
+  }
+
+      
+  .backgroundColorAfter-digibyte:after {
+    background-color: #0066CC !important;
+  }
+
+      
+  .coinLogoAfter-digibyte:after {
+    content: '\e910';
+  }
+
+    
+      
+  .borderRight-dogecoin {
+    border-right: 2px solid #BA9F33 !important;
+  }
+
+      
+  .textColor-dogecoin {
+    color: #CCB145 !important;
+  }
+
+      
+  .backgroundColor-dogecoin {
+    background-color: #BA9F33 !important;
+  }
+
+      
+  .backgroundColorHover-dogecoin {
+    background-color: #BA9F33 !important;
+  }
+
+      
+  .backgroundColorHover-dogecoin:hover {
+    background-color: #9E872B !important;
+  }
+
+      
+  .backgroundColorAfter-dogecoin:after {
+    background-color: #BA9F33 !important;
+  }
+
+      
+  .coinLogoAfter-dogecoin:after {
+    content: '\e913';
+  }
+
+    
+      
+  .borderRight-byteball {
+    border-right: 2px solid #486684 !important;
+  }
+
+      
+  .textColor-byteball {
+    color: #537598 !important;
+  }
+
+      
+  .backgroundColor-byteball {
+    background-color: #486684 !important;
+  }
+
+      
+  .backgroundColorHover-byteball {
+    background-color: #486684 !important;
+  }
+
+      
+  .backgroundColorHover-byteball:hover {
+    background-color: #3D5770 !important;
+  }
+
+      
+  .backgroundColorAfter-byteball:after {
+    background-color: #486684 !important;
+  }
+
+      
+  .coinLogoAfter-byteball:after {
+    content: '\e91b';
+  }
+
+    
+      
+  .borderRight-nano {
+    border-right: 2px solid #4B8FE2 !important;
+  }
+
+      
+  .textColor-nano {
+    color: #72A7E8 !important;
+  }
+
+      
+  .backgroundColor-nano {
+    background-color: #4B8FE2 !important;
+  }
+
+      
+  .backgroundColorHover-nano {
+    background-color: #4B8FE2 !important;
+  }
+
+      
+  .backgroundColorHover-nano:hover {
+    background-color: #2477DC !important;
+  }
+
+      
+  .backgroundColorAfter-nano:after {
+    background-color: #4B8FE2 !important;
+  }
+
+      
+  .coinLogoAfter-nano:after {
+    content: '\e923';
+  }
+
+    
+      
+  .borderRight-pivx {
+    border-right: 2px solid #614E7E !important;
+  }
+
+      
+  .textColor-pivx {
+    color: #705A91 !important;
+  }
+
+      
+  .backgroundColor-pivx {
+    background-color: #614E7E !important;
+  }
+
+      
+  .backgroundColorHover-pivx {
+    background-color: #614E7E !important;
+  }
+
+      
+  .backgroundColorHover-pivx:hover {
+    background-color: #52426B !important;
+  }
+
+      
+  .backgroundColorAfter-pivx:after {
+    background-color: #614E7E !important;
+  }
+
+      
+  .coinLogoAfter-pivx:after {
+    content: '\e927';
+  }
+
+    
+      
+  .borderRight-qtum {
+    border-right: 2px solid #359BCE !important;
+  }
+
+      
+  .textColor-qtum {
+    color: #54AAD6 !important;
+  }
+
+      
+  .backgroundColor-qtum {
+    background-color: #359BCE !important;
+  }
+
+      
+  .backgroundColorHover-qtum {
+    background-color: #359BCE !important;
+  }
+
+      
+  .backgroundColorHover-qtum:hover {
+    background-color: #2B84B1 !important;
+  }
+
+      
+  .backgroundColorAfter-qtum:after {
+    background-color: #359BCE !important;
+  }
+
+      
+  .coinLogoAfter-qtum:after {
+    content: '\e92a';
+  }
+
+    
+      
+  .borderRight-sia {
+    border-right: 2px solid #00CBA0 !important;
+  }
+
+      
+  .textColor-sia {
+    color: #00E9B8 !important;
+  }
+
+      
+  .backgroundColor-sia {
+    background-color: #00CBA0 !important;
+  }
+
+      
+  .backgroundColorHover-sia {
+    background-color: #00CBA0 !important;
+  }
+
+      
+  .backgroundColorHover-sia:hover {
+    background-color: #00AD88 !important;
+  }
+
+      
+  .backgroundColorAfter-sia:after {
+    background-color: #00CBA0 !important;
+  }
+
+      
+  .coinLogoAfter-sia:after {
+    content: '\e92c';
+  }
+
+    
+      
+  .borderRight-steem {
+    border-right: 2px solid #1A5099 !important;
+  }
+
+      
+  .textColor-steem {
+    color: #1E5CB0 !important;
+  }
+
+      
+  .backgroundColor-steem {
+    background-color: #1A5099 !important;
+  }
+
+      
+  .backgroundColorHover-steem {
+    background-color: #1A5099 !important;
+  }
+
+      
+  .backgroundColorHover-steem:hover {
+    background-color: #164482 !important;
+  }
+
+      
+  .backgroundColorAfter-steem:after {
+    background-color: #1A5099 !important;
+  }
+
+      
+  .coinLogoAfter-steem:after {
+    content: '\e92e';
+  }
+
+    
+      
+  .borderRight-waves {
+    border-right: 2px solid #24AAD6 !important;
+  }
+
+      
+  .textColor-waves {
+    color: #41B8DF !important;
+  }
+
+      
+  .backgroundColor-waves {
+    background-color: #24AAD6 !important;
+  }
+
+      
+  .backgroundColorHover-waves {
+    background-color: #24AAD6 !important;
+  }
+
+      
+  .backgroundColorHover-waves:hover {
+    background-color: #1F90B6 !important;
+  }
+
+      
+  .backgroundColorAfter-waves:after {
+    background-color: #24AAD6 !important;
+  }
+
+      
+  .coinLogoAfter-waves:after {
+    content: '\e934';
+  }
+
+    
+      
+  .borderRight-verge {
+    border-right: 2px solid #42AFB2 !important;
+  }
+
+      
+  .textColor-verge {
+    color: #58BEC1 !important;
+  }
+
+      
+  .backgroundColor-verge {
+    background-color: #42AFB2 !important;
+  }
+
+      
+  .backgroundColorHover-verge {
+    background-color: #42AFB2 !important;
+  }
+
+      
+  .backgroundColorHover-verge:hover {
+    background-color: #389597 !important;
+  }
+
+      
+  .backgroundColorAfter-verge:after {
+    background-color: #42AFB2 !important;
+  }
+
+      
+  .coinLogoAfter-verge:after {
+    content: '\e940';
+  }
+
+    
+      
+  .borderRight-zcoin {
+    border-right: 2px solid #23B852 !important;
+  }
+
+      
+  .textColor-zcoin {
+    color: #28D45E !important;
+  }
+
+      
+  .backgroundColor-zcoin {
+    background-color: #23B852 !important;
+  }
+
+      
+  .backgroundColorHover-zcoin {
+    background-color: #23B852 !important;
+  }
+
+      
+  .backgroundColorHover-zcoin:hover {
+    background-color: #1E9C46 !important;
+  }
+
+      
+  .backgroundColorAfter-zcoin:after {
+    background-color: #23B852 !important;
+  }
+
+      
+  .coinLogoAfter-zcoin:after {
+    content: '\e942';
+  }
+
+    
+      
+  .borderRight-zcash {
+    border-right: 2px solid #E5A93D !important;
+  }
+
+      
+  .textColor-zcash {
+    color: #EABA63 !important;
+  }
+
+      
+  .backgroundColor-zcash {
+    background-color: #E5A93D !important;
+  }
+
+      
+  .backgroundColorHover-zcash {
+    background-color: #E5A93D !important;
+  }
+
+      
+  .backgroundColorHover-zcash:hover {
+    background-color: #D9961D !important;
+  }
+
+      
+  .backgroundColorAfter-zcash:after {
+    background-color: #E5A93D !important;
+  }
+
+      
+  .coinLogoAfter-zcash:after {
+    content: '\e943';
+  }
+
+    
+      
+  .borderRight-nxt {
+    border-right: 2px solid #008FBB !important;
+  }
+
+      
+  .textColor-nxt {
+    color: #00A4D7 !important;
+  }
+
+      
+  .backgroundColor-nxt {
+    background-color: #008FBB !important;
+  }
+
+      
+  .backgroundColorHover-nxt {
+    background-color: #008FBB !important;
+  }
+
+      
+  .backgroundColorHover-nxt:hover {
+    background-color: #007A9F !important;
+  }
+
+      
+  .backgroundColorAfter-nxt:after {
+    background-color: #008FBB !important;
+  }
+
+      
+  .coinLogoAfter-nxt:after {
+    content: '\e947';
+  }
+
+    
+      
+  .borderRight-stratis {
+    border-right: 2px solid #2398DD !important;
+  }
+
+      
+  .textColor-stratis {
+    color: #44A8E2 !important;
+  }
+
+      
+  .backgroundColor-stratis {
+    background-color: #2398DD !important;
+  }
+
+      
+  .backgroundColorHover-stratis {
+    background-color: #2398DD !important;
+  }
+
+      
+  .backgroundColorHover-stratis:hover {
+    background-color: #1D81BC !important;
+  }
+
+      
+  .backgroundColorAfter-stratis:after {
+    background-color: #2398DD !important;
+  }
+
+      
+  .coinLogoAfter-stratis:after {
+    content: '\e932';
+  }
+
+    

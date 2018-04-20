@@ -1,0 +1,29 @@
+{
+  "version": "1.0.9",
+  "name": "Cryptodex",
+  "manifest_version": 2,
+  "description": "Your all-in-one cryptocurrency address book",
+  "browser_action": {
+    "default_title": "Cryptodex"
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "web_accessible_resources": [
+    "app.html",
+    "inject.html"
+  ],
+  "externally_connectable": {
+    "ids": [
+      "*"
+    ],
+    "matches": [
+      "*://cryptodex.rocks/*"
+    ]
+  },
+  "background": {
+    "page": "background.html"
+  }
+}

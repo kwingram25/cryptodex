@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'cryptocoins';
+  src:  url('../fonts/cryptocoins.eot');
+  src:  url('../fonts/cryptocoins.eot') format('embedded-opentype'),
+    url('../fonts/cryptocoins.ttf') format('truetype'),
+    url('../fonts/cryptocoins.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* i {
+  /* use !important to prevent issues with browser extensions that change fonts
+  font-family: 'cryptocoins' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+.icon-ADA-alt .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.icon-ADA-alt .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ADA:before {
+  content: "\e902";
+}
+.icon-ARDR-alt:before {
+  content: "\e903";
+}
+.icon-ARDR:before {
+  content: "\e904";
+}
+.icon-ARK-alt .path1:before {
+  content: "\e905";
+  color: rgb(0, 0, 0);
+}
+.icon-ARK-alt .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ARK:before {
+  content: "\e907";
+}
+.icon-BCH-alt:before {
+  content: "\e908";
+}
+.icon-BCH:before {
+  content: "\e909";
+}
+.icon-BTC-alt:before {
+  content: "\e90a";
+}
+.icon-BTC:before {
+  content: "\e90b";
+}
+.icon-DASH-alt:before {
+  content: "\e90c";
+}
+.icon-DASH:before {
+  content: "\e90d";
+}
+.icon-DCR-alt:before {
+  content: "\e90e";
+}
+.icon-DCR:before {
+  content: "\e90f";
+}
+.icon-DGB-alt:before {
+  content: "\e910";
+}
+.icon-DGB:before {
+  content: "\e911";
+}
+.icon-DOGE-alt:before {
+  content: "\e912";
+}
+.icon-DOGE:before {
+  content: "\e913";
+}
+.icon-EOS-alt:before {
+  content: "\e914";
+}
+.icon-EOS:before {
+  content: "\e915";
+}
+.icon-ETC-alt:before {
+  content: "\e916";
+}
+.icon-ETC:before {
+  content: "\e917";
+}
+.icon-ETH-alt:before {
+  content: "\e918";
+}
+.icon-ETH:before {
+  content: "\e919";
+}
+.icon-GBYTE-alt:before {
+  content: "\e91a";
+}
+.icon-GBYTE:before {
+  content: "\e91b";
+  color: #fff;
+}
+.icon-ICX:before {
+  content: "\e91c";
+}
+.icon-IOTA-alt:before {
+  content: "\e91d";
+}
+.icon-IOTA:before {
+  content: "\e91e";
+}
+.icon-LSK-alt:before {
+  content: "\e91f";
+}
+.icon-LSK:before {
+  content: "\e920";
+}
+.icon-LTC-alt:before {
+  content: "\e921";
+}
+.icon-LTC:before {
+  content: "\e922";
+}
+.icon-XRB:before {
+  content: "\e923";
+}
+.icon-NEO-alt:before {
+  content: "\e924";
+}
+.icon-NEO:before {
+  content: "\e925";
+}
+.icon-PIVX-alt:before {
+  content: "\e926";
+}
+.icon-PIVX:before {
+  content: "\e927";
+}
+.icon-QTUM-alt .path1:before {
+  content: "\e928";
+  color: rgb(0, 0, 0);
+}
+.icon-QTUM-alt .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-QTUM:before {
+  content: "\e92a";
+}
+.icon-SIA-alt:before {
+  content: "\e92b";
+}
+.icon-SIA:before {
+  content: "\e92c";
+}
+.icon-STEEM-alt:before {
+  content: "\e92d";
+}
+.icon-STEEM:before {
+  content: "\e92e";
+}
+.icon-STR-alt:before {
+  content: "\e92f";
+}
+.icon-STR:before {
+  content: "\e930";
+}
+.icon-STRAT-alt:before {
+  content: "\e931";
+}
+.icon-STRAT:before {
+  content: "\e932";
+}
+.icon-USDT-alt:before {
+  content: "\e945";
+}
+.icon-USDT:before {
+  content: "\e946";
+}
+.icon-WAVES-alt:before {
+  content: "\e933";
+}
+.icon-WAVES:before {
+  content: "\e934";
+}
+.icon-XEM-alt:before {
+  content: "\e935";
+}
+.icon-XEM:before {
+  content: "\e936";
+}
+.icon-XMR:before {
+  content: "\e937";
+}
+.icon-XRP-alt:before {
+  content: "\e938";
+}
+.icon-XRP:before {
+  content: "\e939";
+}
+.icon-VEN .path1:before {
+  content: "\e93a";
+  color: rgb(0, 0, 0);
+}
+.icon-VEN .path2:before {
+  content: "\e93b";
+  margin-left: -1.0595703125em;
+  color: rgb(255, 255, 255);
+  opacity: 0.1;
+}
+.icon-VEN .path3:before {
+  content: "\e93c";
+  margin-left: -1.0595703125em;
+  color: rgb(255, 255, 255);
+  opacity: 0.1;
+}
+.icon-XVG-alt:before {
+  content: "\e93d";
+}
+.icon-XVG-old:before {
+  content: "\e93e";
+}
+.icon-XVG .path1:before {
+  content: "\e93f";
+  color: rgb(0, 12, 15);
+}
+.icon-XVG .path2:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(48, 53, 51);
+  opacity: 0.31;
+}
+.icon-XZC-alt:before {
+  content: "\e941";
+}
+.icon-XZC:before {
+  content: "\e942";
+}
+.icon-ZEC-alt:before {
+  content: "\e943";
+}
+.icon-ZEC:before {
+  content: "\e944";
+}
+.icon-NXT-alt:before {
+  content: "\e947";
+}
+.icon-NXT:before {
+  content: "\e948";
+}

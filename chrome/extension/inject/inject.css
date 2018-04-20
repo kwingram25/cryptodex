@@ -1,0 +1,30 @@
+.cryptodex-inject {
+  opacity: 0.3;
+  position: fixed;
+  z-index: 5000;
+  -webkit-font-smoothing: antialiased;
+  transition: opacity 0.25s ease;
+}
+
+.just-shown {
+
+}
+
+.cryptodex-inject.just-shown,
+.cryptodex-inject:hover {
+  opacity: 1;
+}
+/*
+root: {
+  opacity: 0,
+  transition: `opacity ${transition}s ease`,
+  '-webkit-font-smoothing': 'antialiased',
+
+  '&$settled': {
+    opacity: offOpacity
+  },
+
+  '&:hover, &$justMounted': {
+    opacity: 1
+  },
+}, */

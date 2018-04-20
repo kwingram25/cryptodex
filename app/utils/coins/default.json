@@ -1,0 +1,34 @@
+{
+  "bitcoin": {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "ticker": "BTC",
+    "explorer": "https://*.blockcypher.com",
+  },
+  "ethereum": {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "ticker": "ETH",
+    "explorer": "https://*.etherscan.io",
+  },
+  "litecoin": {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "ticker": "LTC",
+  },
+  "neo": {
+    "name": "NEO",
+    "code": "neo",
+    "ticker": "NEO",
+  },
+  "ripple": {
+    "name": "Ripple",
+    "code": "ripple",
+    "ticker": "XRP",
+  },
+  "cardano": {
+    "name": "Cardano",
+    "code": "cardano",
+    "ticker": "ADA",
+  }
+}

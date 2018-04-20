@@ -1,0 +1,97 @@
+it('should reorder addresses (low -> high)', async () => {
+  const from = randomIndex(0, Math.floor(addressCount / 2));
+  const to = randomIndex(Math.floor(addressCount / 2), addressCount);
+
+  console.log(from);
+  console.log(to);
+
+  const oldElems = await findList(driver);
+  // console.log(elems);
+  const fromElem = oldElems[from];
+  const toElem = oldElems[to];
+
+  // const actions = new Actions();
+  //const actions = new ActionSequence(driver);
+  //console.log(actions);
+  // console.log(driver.actions());
+
+  //fromElem.clickAndHold();
+
+  // dragAndDrop(from, to) {
+  //   // Do not require up top to avoid a cycle that breaks static analysis.
+  //   const {WebElement} = require('./webdriver');
+  //   if (!(to instanceof WebElement)
+  //       && (!to || typeof to.x !== 'number' || typeof to.y !== 'number')) {
+  //     throw new InvalidArgumentError(
+  //         'Invalid drag target; must specify a WebElement or {x, y} offset');
+  //   }
+  //
+  //   this.move({origin: from}).press();
+  //   if (to instanceof WebElement) {
+  //     this.move({origin: to});
+  //   } else {
+  //     this.move({x: to.x, y: to.y, origin: Origin.POINTER});
+  //   }
+  //   return this.release();
+  // }
+
+  const fromLocation = await fromElem.getLocation();
+  const toLocation = await toElem.getLocation();
+  const fromSize = await fromElem.getSize();
+  const toSize = await toElem.getSize();
+  // console.log({
+  //   fromLocation,
+  //   toLocation,
+  //   fromSize,
+  //   toSize
+  // })
+  const fromCenter = {
+    x: parseInt(fromLocation.x + (fromSize.width / 2), 10),
+    y: parseInt(fromLocation.y + (fromSize.height / 2), 10)
+  };
+  const toCenter = {
+    x: parseInt(toLocation.x + (toSize.width / 2), 10),
+    y: parseInt(toLocation.y + (toSize.height / 2), 10)
+  };
+  // const { x, y } = await toElem.getLocation();
+  //console.log(await toElem.getLocation());
+
+  //await driver.tapAndHold(fromCenter);
+  const actions = driver.touchActions();
+
+  await actions
+    .tapAndHold(fromCenter)
+    .move(toCenter)
+    .release(toCenter)
+    .perform();
+
+  await delay(2000);
+
+  //
+  const newElems = await findList(driver);
+
+  const compare = await Promise.all(
+    Array(addressCount).fill().map(async (_, i) => ({
+      was: await oldElems[i].findElement(webdriver.By.tagName('p')).getText(),
+      is: await newElems[i].findElement(webdriver.By.tagName('p')).getText()
+    }))
+  );
+
+  console.log(compare);
+
+  // for (let i = 0; i < newElems.length; i += 1) {
+  //   const oldString = await oldElems[i].findElement(webdriver.By.tagName('p')).getText();
+  //   const newString = await newElems
+  //   if (i < from || i > to) {
+  //     expect(newElems)
+  //   }
+  // }
+
+    // .moveToElement(toElem)
+    // .release(fromElem)
+    // .perform();
+  // fromElem.clickAndHold();
+  // fromElem.moveToElement(toElem);
+  // fromElem.release();
+
+});

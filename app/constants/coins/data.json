@@ -1,0 +1,243 @@
+{
+  "bitcoin": {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "ticker": "BTC",
+    "explorer": "https://*.blockcypher.com",
+    "color": "#F7931A",
+    "char": "e90b"
+  },
+  "ethereum": {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "ticker": "ETH",
+    "explorer": "https://*.etherscan.io",
+    "char": "e918",
+    "color": "#6F7CBA"
+  },
+  "ripple": {
+    "name": "Ripple",
+    "code": "ripple",
+    "ticker": "XRP",
+    "explorer": "https://*.ripple.com",
+    "char": "e938",
+    "color": "#346AA9"
+  },
+  "bitcoin-cash": {
+    "name": "Bitcoin Cash",
+    "code": "bitcoin-cash",
+    "ticker": "BCH",
+    "explorer": "https://blockdozer.com",
+    "color": "#F7931A",
+    "char": "e909"
+  },
+  "cardano": {
+    "name": "Cardano",
+    "code": "cardano",
+    "ticker": "ADA",
+    "explorer": "https://cardanoexplorer.com",
+    "char": "e901",
+    "color": "#3CC8C8"
+  },
+  "litecoin": {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "ticker": "LTC",
+    "char": "e922",
+    "color": "#838383"
+  },
+  "neo": {
+    "name": "NEO",
+    "code": "neo",
+    "ticker": "NEO",
+    "explorer": "https://neoscan.io",
+    "char": "e925",
+    "color": "#58BF00"
+  },
+  "stellar": {
+    "name": "Stellar",
+    "code": "stellar",
+    "ticker": "XLM",
+    "explorer": "https://*.stellar.org",
+    "char": "e92f",
+    "color": "#08B5E5"
+  },
+  "iota": {
+    "name": "IOTA",
+    "code": "iota",
+    "ticker": "IOTA",
+    "explorer": "https://*.thetangle.org/",
+    "char": "e91e",
+    "color": "#FFFFFF"
+  },
+  "nem": {
+    "name": "NEM",
+    "code": "nem",
+    "ticker": "XEM",
+    "explorer": "http://*.ournem.com/",
+    "char": "e935",
+    "color": "#41bf76"
+  },
+  "dash": {
+    "name": "Dash",
+    "code": "dash",
+    "ticker": "DASH",
+    "explorer": "https://*.blockcypher.com",
+    "char": "e90c",
+    "color": "#1c75bc"
+  },
+  "monero": {
+    "name": "Monero",
+    "code": "monero",
+    "ticker": "XMR",
+    "char": "e937",
+    "color": "#FF6600"
+  },
+  "lisk": {
+    "name": "Lisk",
+    "code": "lisk",
+    "ticker": "LSK",
+    "explorer": "https://*.lisk.io",
+    "char": "e920",
+    "color": "#1A6896"
+  },
+  "ethereum-classic": {
+    "name": "Ethereum Classic",
+    "code": "ethereum-classic",
+    "ticker": "ETC",
+    "explorer": "https://*.gastracker.io",
+    "char": "e917",
+    "color": "#669073"
+  },
+  "ardor": {
+    "name": "Ardor",
+    "code": "ardor",
+    "ticker": "ARDR",
+    "explorer": "https://ardor.tools",
+    "char": "e904",
+    "color": "#1162a1"
+  },
+  "ark": {
+    "name": "Ark",
+    "code": "ark",
+    "ticker": "ARK",
+    "explorer": "https://explorer.ark.io:8443",
+    "char": "e906",
+    "color": "#F70000"
+  },
+  "decred": {
+    "name": "Decred",
+    "code": "decred",
+    "ticker": "DCR",
+    "explorer": "https://*.decred.org",
+    "char": "e90f",
+    "color": "#3b7cfb"
+  },
+  "digibyte": {
+    "name": "DigiByte",
+    "code": "digibyte",
+    "ticker": "DGB",
+    "explorer": "https://digiexplorer.info",
+    "char": "e910",
+    "color": "#0066cc"
+  },
+  "dogecoin": {
+    "name": "Dogecoin",
+    "code": "dogecoin",
+    "ticker": "DOGE",
+    "char": "e913",
+    "color": "#BA9F33"
+  },
+  "byteball": {
+    "name": "ByteBall",
+    "code": "byteball",
+    "ticker": "GBYTE",
+    "char": "e91b",
+    "color": "#486684"
+  },
+  "nano": {
+    "name": "Nano",
+    "code": "nano",
+    "ticker": "XRB",
+    "char": "e923",
+    "color": "#4b8fe2"
+  },
+  "pivx": {
+    "name": "PivX",
+    "code": "pivx",
+    "ticker": "PIVX",
+    "char": "e927",
+    "color": "#614e7e"
+  },
+  "qtum": {
+    "name": "Qtum",
+    "code": "qtum",
+    "ticker": "QTUM",
+    "explorer": "https://*.qtum.org",
+    "char": "e92a",
+    "color": "#359BCE"
+  },
+  "sia": {
+    "name": "Sia",
+    "code": "sia",
+    "ticker": "SC",
+    "char": "e92c",
+    "color": "#00CBA0"
+  },
+  "steem": {
+    "name": "Steem",
+    "code": "steem",
+    "ticker": "STEEM",
+    "explorer": "https://*.steemjs.com",
+    "char": "e92e",
+    "color": "#1A5099"
+  },
+  "waves": {
+    "name": "Waves",
+    "code": "waves",
+    "ticker": "WAVES",
+    "explorer": "https://*.wavesnodes.com",
+    "char": "e934",
+    "color": "#24aad6"
+  },
+  "verge": {
+    "name": "Verge",
+    "code": "verge",
+    "ticker": "XVG",
+    "explorer": "https://verge-blockchain.info",
+    "char": "e940",
+    "color": "#42AFB2"
+  },
+  "zcoin": {
+    "name": "Zcoin",
+    "code": "zcoin",
+    "ticker": "XZC",
+    "explorer": "https://explorer.zcoin.io",
+    "char": "e942",
+    "color": "#23B852"
+  },
+  "zcash": {
+    "name": "Zcash",
+    "code": "zcash",
+    "ticker": "ZEC",
+    "explorer": "https://*.zcha.in",
+    "char": "e943",
+    "color": "#e5a93d"
+  },
+  "nxt": {
+    "name": "Nxt",
+    "code": "nxt",
+    "ticker": "NXT",
+    "explorer": "https://nxtportal.org",
+    "char": "e947",
+    "color": "#008FBB"
+  },
+  "stratis": {
+    "name": "Stratis",
+    "code": "stratis",
+    "ticker": "STRAT",
+    "explorer": "https://chainz.cryptoid.info",
+    "char": "e932",
+    "color": "#2398dd"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "permissions": [ "contextMenus", "management", "tabs", "storage", "<all_urls>" ]
+}
