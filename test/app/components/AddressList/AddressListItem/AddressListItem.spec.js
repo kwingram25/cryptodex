@@ -1,10 +1,6 @@
 import { expect } from 'chai';
 import sinon from 'sinon';
 
-import {
-    COPY_ADDRESS
-} from 'constants/actions';
-
 import { AddressListItem } from 'components/AddressList/AddressListItem';
 
 import {
@@ -55,12 +51,6 @@ describe('AddressListItem', () => {
     const dive = output.dive();
 
     expect(
-      props.store.isActionTypeDispatched(COPY_ADDRESS)
-    ).to.equal(
-      false
-    );
-
-    expect(
       dive.state('isShowingTooltip')
     ).to.equal(
       false
@@ -68,15 +58,6 @@ describe('AddressListItem', () => {
 
     dive.instance().onClick(props.address)();
     dive.update();
-
-    expect(
-      props.store.isActionDispatched({
-        type: COPY_ADDRESS,
-        payload: props.address.id
-      })
-    ).to.equal(
-      true
-    );
     //
     expect(
       dive.state('isShowingTooltip')

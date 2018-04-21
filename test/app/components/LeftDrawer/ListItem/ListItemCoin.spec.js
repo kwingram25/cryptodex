@@ -43,7 +43,7 @@ const setup = (code) => {
 describe('ListItemCoin', () => {
   it('should render correctly', () => {
     const { output } = setup()();
-    expect(output.dive().name()).to.equal('ListItemBase');
+    expect(output.dive().dive().name()).to.equal('ListItemBase');
   });
 
 

@@ -66,7 +66,6 @@ const presets = {
   'bitcoin-cash': {
     code: 'bitcoin-cash',
     regex: /^(bitcoincash:q[a-np-z0-9]{40,}|[13C][a-km-zA-HJ-NP-Z1-9]{25,34})$/,
-    explorer: address => `https://blockdozer.com/insight/address/${address}`,
     lookup: insightApiTemplate(address => `https://blockdozer.com/insight-api/addr/${address}`)
   },
 
@@ -74,7 +73,6 @@ const presets = {
     code: 'ardor',
     regex: /^ARDOR\-([A-NP-Z1-9]{4}\-){3}[A-NP-Z1-9]{5}$/,
     prefix: 'ARDOR-',
-    explorer: address => `https://ardor.tools/account/${address}`,
     lookup: {
       url: () => 'https://ardor.tools/ardor/nxt',
       options: address => ({
@@ -91,7 +89,6 @@ const presets = {
     code: 'cardano',
     regex: /^D[A-NP-Za-km-z1-9]{35,}$/,
     prefix: 'D',
-    explorer: address => `https://cardanoexplorer.com/address/${address}`,
     lookup: {
       url: address => `https://cardanoexplorer.com/api/addresses/summary/${address}`,
       success: data => data.Right !== undefined && data.Left === undefined
@@ -102,7 +99,6 @@ const presets = {
     code: 'digibyte',
     regex: /^D[A-NP-Z1-9][A-NP-Za-km-z1-9]{32}$/,
     prefix: 'D',
-    explorer: address => `https://digiexplorer.info/address/${address}`,
     lookup: insightApiTemplate(address => `https://digiexplorer.info/api/addr/${address}`)
   },
 
@@ -110,7 +106,6 @@ const presets = {
     code: 'nxt',
     regex: /^NXT\-([A-NP-Z1-9]{4}\-){3}[A-NP-Z1-9]{5}$/,
     prefix: 'NXT-',
-    explorer: address => `https://nxtportal.org/accounts/${address}`,
     lookup: {
       url: () => 'https://ardor.tools/ardor/nxt',
       options: address => ({
@@ -127,7 +122,6 @@ const presets = {
     code: 'ark',
     regex: /^A[a-km-zA-HJ-NP-Z][a-km-zA-HJ-NP-Z1-9]{25,34}$/,
     prefix: 'A',
-    explorer: address => `https://explorer.ark.io/wallets/${address}`,
     lookup: {
       url: () => 'https://explorer.ark.io:8443/api/accounts/',
       options: address => ({
@@ -142,7 +136,6 @@ const presets = {
   byteball: {
     code: 'byteball',
     regex: /^[A-Z0-9]{30,}$/,
-    explorer: address => `https://explorer.byteball.org/#${address}`,
   },
 
   dash: blockCypherTemplate({
@@ -156,7 +149,6 @@ const presets = {
     code: 'decred',
     regex: /^D[sc][a-km-zA-HJ-NP-Z1-9]{24,33}$/,
     prefix: 'D',
-    explorer: address => `https://mainnet.decred.org/address/${address}`,
     lookup: insightApiTemplate(address => `https://mainnet.decred.org/api/addr/${address}`),
   },
 
@@ -181,14 +173,12 @@ const presets = {
     lookup: {
       url: address => `https://neoscan.io/api/main_net/v1/get_address/${address}`,
       success: data => data.address !== 'not found'
-    },
-    explorer: address => `https://neoscan.io/address/${address}`
+    }
   },
 
   ethereum: ethereumTemplate({
     code: 'ethereum',
     validate: address => web3utils.isAddress(address),
-    explorer: address => `https://www.etherscan.io/address/${address}`,
     lookup: {
       url: () => 'https://api.etherscan.io/api',
       options: address => ({
@@ -206,7 +196,6 @@ const presets = {
 
   'ethereum-classic': ethereumTemplate({
     code: 'ethereum-classic',
-    explorer: address => `https://gastracker.io/addr/${address}`,
     lookup: {
       url: address => `https://api.gastracker.io/v1/addr/${address}`,
       success: data => data.success !== false
@@ -216,7 +205,6 @@ const presets = {
   iota: {
     code: 'iota',
     regex: /^[A-Z9]{90}$/,
-    explorer: address => `https://thetangle.org/address/${address}`,
     lookup: {
       url: address => `https://api.thetangle.org/v1/addresses/${address}`,
       success: () => true
@@ -226,7 +214,6 @@ const presets = {
   lisk: {
     code: 'lisk',
     regex: /^[0-9]{19,20}L$/,
-    explorer: address => `https://explorer.lisk.io/address/${address}`,
     lookup: {
       url: () => 'https://explorer.lisk.io/api/getAccount',
       options: address => ({
@@ -242,17 +229,15 @@ const presets = {
     code: 'nano',
     regex: /^xrb_[13][a-km-z1-9]{59}$/,
     prefix: 'xrb_',
-    explorer: address => `https://nano.org/en/explore/account/${address}`
   },
 
   nem: {
     code: 'nem',
     regex: /^[Nn][A-Da-d]([A-Za-z2-7]{4}-([A-Za-z2-7]{6}-){5}[A-Za-z2-7]{4}|[A-Za-z2-7]{38})$/,
     prefix: 'N',
-    explorer: address => `http://explorer.ournem.com/#/s_account?account=${address}`,
     lookup: {
       method: 'POST',
-      url: () => 'http://explorer.ournem.com/account/detail',
+      url: () => 'http://explorer.nemchina.com/account/detail',
       options: address => ({
         data: ({ address }),
         headers: {
@@ -269,7 +254,6 @@ const presets = {
     code: 'pivx',
     regex: /^D[a-km-zA-HJ-NP-Z1-9]{29,}$/,
     prefix: 'D',
-    explorer: address => `http://www.presstab.pw/phpexplorer/PIVX/address.php?address=${address}`,
     lookup: cryptoidTemplate('pivx')
   },
 
@@ -277,7 +261,6 @@ const presets = {
     code: 'qtum',
     regex: /^[QM][A-NP-Za-km-z][A-NP-Za-km-z1-9]{32}$/,
     prefix: 'Q',
-    explorer: address => `https://explorer.qtum.org/address/${address}`,
     lookup: insightApiTemplate(address => `https://explorer.qtum.org/insight-api/addr/${address}`)
   },
 
@@ -292,7 +275,6 @@ const presets = {
         _.get(data, 'account_data') !== undefined
       )
     },
-    explorer: address => `https://xrpcharts.ripple.com/#/graph/${address}`
   },
 
   monero: {
@@ -304,13 +286,11 @@ const presets = {
   sia: {
     code: 'sia',
     regex: /^[a-f0-9]{76}/,
-    explorer: address => `https://explore.sia.tech/hashes/${address}`
   },
 
   steem: {
     code: 'steem',
     regex: /^[a-z][a-z0-9\-\.]{1,14}[a-z0-9]$/,
-    explorer: address => `https://steemit.com/@${address}`,
     lookup: {
       url: () => 'https://api.steemjs.com/getAccounts',
       options: address => ({
@@ -325,7 +305,6 @@ const presets = {
   stellar: {
     code: 'stellar',
     regex: /^G[A-D][A-Z2-7]{54}$/,
-    explorer: address => `https://stellar.expert/explorer/public/account/${address}`,
     lookup: {
       url: address => `https://horizon.stellar.org/accounts/${address}`,
       success: data => data.account_id !== undefined
@@ -336,7 +315,6 @@ const presets = {
     code: 'waves',
     regex: /^3P[A-NP-Za-km-z1-9]{33}$/,
     prefix: '3P',
-    explorer: address => `http://wavesexplorer.com/address/${address}`,
     lookup: {
       url: address => `https://nodes.wavesnodes.com/addresses/balance/details/${address}`,
       success: data => data.error === undefined
@@ -347,7 +325,6 @@ const presets = {
     code: 'stratis',
     regex: /^S[A-NP-Za-km-z][A-NP-Za-km-z1-9]{32}$/,
     prefix: 'S',
-    explorer: address => `https://chainz.cryptoid.info/strat/address.dws?${address}.htm`,
     lookup: cryptoidTemplate('strat')
   },
 
@@ -355,7 +332,6 @@ const presets = {
     code: 'verge',
     regex: /^D[A-NP-Z1-9][A-NP-Za-km-z1-9]{32}$/,
     prefix: 'D',
-    explorer: address => `https://verge-blockchain.info/address/${address}`,
     lookup: {
       url: address => `https://verge-blockchain.info/ext/getBalance/${address}`,
       success: data => data.error === undefined
@@ -366,7 +342,6 @@ const presets = {
     code: 'zcoin',
     regex: /^[a4Z][A-NP-Z1-9][A-NP-Za-km-z1-9]{32}$/,
     prefix: 'a',
-    explorer: address => `https://explorer.zcoin.io/address/${address}`,
     lookup: {
       url: address => `https://explorer.zcoin.io/ext/getaddress/${address}`,
       success: data => data.error === undefined
@@ -377,11 +352,30 @@ const presets = {
     code: 'zcash',
     regex: /^t[A-NP-Za-km-z1-9]{34}$/,
     prefix: 't',
-    explorer: address => `https://explorer.zcha.in/accounts/${address}`,
     lookup: {
       url: address => `https://api.zcha.in/v2/mainnet/accounts/${address}`,
       success: data => data !== null
     }
+  },
+
+  reddcoin: {
+    code: 'reddcoin',
+    regex: /^R[A-NP-Za-km-z1-9]{33}$/,
+    prefix: 'R',
+    lookup: insightApiTemplate(address => `https://live.reddcoin.com/api/addr/${address}`)
+  },
+
+  komodo: {
+    code: 'komodo',
+    regex: /^R[A-NP-Za-km-z1-9]{33}$/,
+    prefix: 'R',
+    lookup: insightApiTemplate(address => `https://kmd.explorer.supernet.org/api/addr/${address}`)
+  },
+
+  bytecoin: {
+    code: 'bytecoin',
+    regex: /^2[A-NP-Za-km-z1-9]{94}$/,
+    prefix: '2'
   }
 };
 

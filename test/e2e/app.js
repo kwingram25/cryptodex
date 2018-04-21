@@ -9,7 +9,6 @@ import { delay, startChromeDriver, buildWebDriver } from '../func';
 // import mainSectionStyle from 'components/MainSection.css';
 // import todoItemStyle from 'components/TodoItem.css';
 // import todoTextInputStyle from 'components/TodoTextInput.css';
-import manifest from '../../chrome/manifest.base.json';
 
 import {
   startingCount,
@@ -18,8 +17,7 @@ import {
 } from '../../app/test/utils';
 import testAddresses from '../../app/test/testAddresses';
 
-
-const extensionName = manifest.name;
+const extensionId = 'bjpeejchoeodncbjpjkoemfaolpaolgp';
 
 const {
   addButtonId,
@@ -144,12 +142,6 @@ describe('window (popup) page', function test() {
     await startChromeDriver();
     const extPath = path.resolve('dev');
     driver = buildWebDriver(extPath);
-    await driver.get('chrome://extensions-frame');
-    const elems = await driver.findElements(webdriver.By.xpath(
-      '//div[contains(@class, "extension-list-item-wrapper") and ' +
-      `.//h2[contains(text(), "${extensionName}")]]`
-    ));
-    const extensionId = await elems[0].getAttribute('id');
     await driver.get(`chrome-extension://${extensionId}/app.html`);
   });
 
@@ -184,7 +176,7 @@ describe('window (popup) page', function test() {
     ];
 
     const editAtIndex = randomIndex(0, startingCount);
-    const duplicateIndex = randomIndex(0, startingCount, [editAtIndex]);
+    const duplicateIndex = randomIndex(0, startingCount, { not: [editAtIndex] });
 
     const duplicate = testAddresses.bitcoin[duplicateIndex];
 

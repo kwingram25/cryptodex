@@ -41,7 +41,7 @@ exports.copyAssets = (type) => {
 exports.writeCoinScss = () => {
   const path = 'app/static/styles/coins.css';
 
-  if (!fs.existsSync(path)) {
+  //if (!fs.existsSync(path)) {
   //if (!fs.existsSync(path)) {
     let string = '';
 
@@ -84,12 +84,12 @@ exports.writeCoinScss = () => {
 
     fs.writeFile(path, string, 'utf8', () => {});
   //}
-  }
+  //}
 };
 
 exports.writeIconsToFile = () => {
   const path = 'app/constants/coins/svg.json';
-  if (!fs.existsSync(path)) {
+  //if (!fs.existsSync(path)) {
     Promise.all(
       coins.map(coin =>
         DataURI(`app/static/img/icons/${coin.ticker}.svg`)
@@ -102,5 +102,5 @@ exports.writeIconsToFile = () => {
 
       fs.writeFile(path, JSON.stringify(res), 'utf8', () => {});
     });
-  }
+  //}
 };

@@ -1,5 +1,4 @@
 import { expect } from 'chai';
-import sinon from 'sinon';
 import { createShallow } from 'material-ui/test-utils';
 
 import CoinsList from 'components/LeftDrawer/CoinsList';
@@ -12,11 +11,14 @@ import {
 
 const setup = componentTemplate({
   component: CoinsList,
-  props: {
-    open: true,
-    favorites: defaultFavorites,
-    selectedCoinCode: initialFavorite,
-    onClose: sinon.spy()
+  store: {
+    ui: {
+      nav: {
+        isCoinsListOpen: true,
+        favorites: defaultFavorites,
+        selectedCoinCode: initialFavorite
+      }
+    }
   },
   outputFn: output => createShallow()(output)
 });
@@ -24,7 +26,7 @@ const setup = componentTemplate({
 describe('CoinsList component', () => {
   it('should render correctly', () => {
     const { output } = setup();
-    expect(output.dive().name()).to.equal('div');
+    expect(output.dive().name()).to.equal('CoinsList');
   });
 
   it('should render ListItemCoin(s)', () => {

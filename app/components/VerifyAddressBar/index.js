@@ -22,7 +22,6 @@ import {
   baseTheme
 } from 'utils/colors';
 import { explorers } from 'constants/coins';
-import 'static/styles/cryptocoins.css';
 
 import { AddressListItemBase } from '../AddressList/AddressListItem';
 import styles from './styles';

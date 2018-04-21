@@ -74,7 +74,7 @@
     "name": "NEM",
     "code": "nem",
     "ticker": "XEM",
-    "explorer": "http://*.ournem.com/",
+    "explorer": "http://*.nemchina.com/",
     "char": "e935",
     "color": "#41bf76"
   },
@@ -239,5 +239,28 @@
     "explorer": "https://chainz.cryptoid.info",
     "char": "e932",
     "color": "#2398dd"
+  },
+  "reddcoin": {
+    "name": "Reddcoin",
+    "code": "reddcoin",
+    "ticker": "RDD",
+    "explorer": "https://*.reddcoin.com",
+    "char": "e949",
+    "color": "#ED1C24"
+  },
+  "bytecoin": {
+    "name": "Bytecoin",
+    "code": "bytecoin",
+    "ticker": "BCN",
+    "char": "e94c",
+    "color": "#964F51"
+  },
+  "komodo": {
+    "name": "Komodo",
+    "code": "komodo",
+    "ticker": "KMD",
+    "explorer": "https://*.supernet.org",
+    "char": "e94d",
+    "color": "#326464"
   }
 }

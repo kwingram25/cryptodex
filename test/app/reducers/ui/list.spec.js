@@ -23,16 +23,4 @@ describe('ui/list reducer', () => {
       selectedAddressId: 5
     });
   });
-
-  it('should handle COPY_ADDRESS', () => {
-    expect(
-      list(defaultState, {
-        type: types.COPY_ADDRESS,
-        payload: 5
-      })
-    ).to.eql({
-      ...defaultState,
-      copiedAddressId: 5
-    });
-  });
 });

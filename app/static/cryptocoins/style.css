@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'cryptocoins';
-  src:  url('../fonts/cryptocoins.eot');
-  src:  url('../fonts/cryptocoins.eot') format('embedded-opentype'),
-    url('../fonts/cryptocoins.ttf') format('truetype'),
-    url('../fonts/cryptocoins.woff') format('woff');
+  src:  url('./fonts/cryptocoins.eot');
+  src:  url('./fonts/cryptocoins.eot') format('embedded-opentype'),
+    url('./fonts/cryptocoins.ttf') format('truetype'),
+    url('./fonts/cryptocoins.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-/* i {
-  /* use !important to prevent issues with browser extensions that change fonts
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'cryptocoins' !important;
   speak: none;
   font-style: normal;
@@ -18,10 +18,10 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== 
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
+}
 
 .icon-ADA-alt .path1:before {
   content: "\e900";
@@ -183,7 +183,7 @@
 .icon-STRAT-alt:before {
   content: "\e931";
 }
-.icon-STRAT:before {
+.icon-stratis-seeklogo.com:before {
   content: "\e932";
 }
 .icon-USDT-alt:before {
@@ -262,4 +262,22 @@
 }
 .icon-NXT:before {
   content: "\e948";
+}
+.icon-RDD:before {
+  content: "\e949";
+}
+.icon-RDD-alt:before {
+  content: "\e94a";
+}
+.icon-BCN-alt:before {
+  content: "\e94b";
+}
+.icon-BCN:before {
+  content: "\e94c";
+}
+.icon-KMD:before {
+  content: "\e94d";
+}
+.icon-KMD-alt:before {
+  content: "\e94e";
 }

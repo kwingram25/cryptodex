@@ -1115,3 +1115,111 @@
   }
 
     
+      
+  .borderRight-reddcoin {
+    border-right: 2px solid #ED1C24 !important;
+  }
+
+      
+  .textColor-reddcoin {
+    color: #F04148 !important;
+  }
+
+      
+  .backgroundColor-reddcoin {
+    background-color: #ED1C24 !important;
+  }
+
+      
+  .backgroundColorHover-reddcoin {
+    background-color: #ED1C24 !important;
+  }
+
+      
+  .backgroundColorHover-reddcoin:hover {
+    background-color: #D11118 !important;
+  }
+
+      
+  .backgroundColorAfter-reddcoin:after {
+    background-color: #ED1C24 !important;
+  }
+
+      
+  .coinLogoAfter-reddcoin:after {
+    content: '\e949';
+  }
+
+    
+      
+  .borderRight-bytecoin {
+    border-right: 2px solid #964F51 !important;
+  }
+
+      
+  .textColor-bytecoin {
+    color: #AA5D60 !important;
+  }
+
+      
+  .backgroundColor-bytecoin {
+    background-color: #964F51 !important;
+  }
+
+      
+  .backgroundColorHover-bytecoin {
+    background-color: #964F51 !important;
+  }
+
+      
+  .backgroundColorHover-bytecoin:hover {
+    background-color: #804345 !important;
+  }
+
+      
+  .backgroundColorAfter-bytecoin:after {
+    background-color: #964F51 !important;
+  }
+
+      
+  .coinLogoAfter-bytecoin:after {
+    content: '\e94c';
+  }
+
+    
+      
+  .borderRight-komodo {
+    border-right: 2px solid #326464 !important;
+  }
+
+      
+  .textColor-komodo {
+    color: #3A7373 !important;
+  }
+
+      
+  .backgroundColor-komodo {
+    background-color: #326464 !important;
+  }
+
+      
+  .backgroundColorHover-komodo {
+    background-color: #326464 !important;
+  }
+
+      
+  .backgroundColorHover-komodo:hover {
+    background-color: #2B5555 !important;
+  }
+
+      
+  .backgroundColorAfter-komodo:after {
+    background-color: #326464 !important;
+  }
+
+      
+  .coinLogoAfter-komodo:after {
+    content: '\e94d';
+  }
+
+    
